@@ -14,4 +14,4 @@ Target framework: `net10.0`.
 
 Ngày 2026-11-05: bổ sung .gitignore chuẩn từ SDK .NET và quy tắc cho tài liệu local. Bỏ bin/obj khỏi Git index, giữ nguyên file trên máy và mã nguồn. Commit đầu chưa được chia sẻ được sửa lại để file build không nằm trong lịch sử sẽ đẩy lên. Có thể tìm commit trước đó trong reflog; không dọn reflog để giữ khả năng khôi phục.
 
-Hướng dẫn đầy đủ về kiến thức, thực hành và dọn dự án nằm trong NewsSite-Guide.md.
+Hướng dẫn làm bài giữ nguyên nội dung ban đầu trong [NewsSite-Guide.md](NewsSite-Guide.md). Kiến thức nền tảng, câu hỏi ôn tập và cách dọn build/Git nằm riêng trong [ASP.NET-Core-MVC-Notebook.md](ASP.NET-Core-MVC-Notebook.md).
