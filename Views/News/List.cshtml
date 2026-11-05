@@ -1,0 +1,15 @@
+@{
+    ViewData["Title"] = "Danh sách tin tức";
+    var titles = ViewData["Titles"] as List<string> ?? new List<string>();
+}
+
+<partial name="_NewsHeader" />
+
+<h1>Danh sách tiêu đề</h1>
+
+<ul>
+    @foreach (var title in titles)
+    {
+        <li>@title</li>
+    }
+</ul>
